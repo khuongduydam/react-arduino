@@ -15,3 +15,11 @@
   font-size: large;
 }
 
+.other{
+  margin-left: 1em;
+}
+
+input.form-control.number{
+  width: 20%;
+  margin: auto;
+}
