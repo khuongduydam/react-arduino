@@ -14,7 +14,7 @@ class LedContainer extends Component {
 
   handleOnClick = (e) => {
     axios
-    .get('http://localhost:4000/api/arduino_leds' + '?switch=' + this.state.on)
+    .get('http://192.168.1.50:4000/api/arduino_leds' + '?switch=' + this.state.on)
     .then(response =>{
       console.log(response)
     })
@@ -23,7 +23,7 @@ class LedContainer extends Component {
 
   handleOffClick = (e) => {
     axios
-    .get('http://localhost:4000/api/arduino_leds' + '?switch=' + this.state.off)
+    .get('http://192.168.1.50:4000/api/arduino_leds' + '?switch=' + this.state.off)
     .then(response =>{
       console.log(response)
     })
@@ -32,7 +32,7 @@ class LedContainer extends Component {
 
   handleOnClick1 = (e) => {
     axios
-    .get('http://localhost:4000/api/arduino_leds' + '?switch=' + this.state.on1)
+    .get('http://192.168.1.50:4000/api/arduino_leds' + '?switch=' + this.state.on1)
     .then(response =>{
       console.log(response)
     })
@@ -41,7 +41,7 @@ class LedContainer extends Component {
 
   handleOffClick1 = (e) => {
     axios
-    .get('http://localhost:4000/api/arduino_leds' + '?switch=' + this.state.off1)
+    .get('http://192.168.1.50:4000/api/arduino_leds' + '?switch=' + this.state.off1)
     .then(response =>{
       console.log(response)
     })

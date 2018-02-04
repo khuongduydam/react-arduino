@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import LedContainer from './components/LedContainer'
+import './bootstrap.min.css'
 
 const logo = "https://vinova.sg/wp-content/uploads/2015/04/Vinova_Logo.png"
 class App extends Component {
